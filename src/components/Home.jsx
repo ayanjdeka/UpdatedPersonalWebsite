@@ -1,6 +1,6 @@
 import React from 'react';
 import { HiArrowNarrowRight } from 'react-icons/hi';
-import me from '../assets/Ayan_Deka.jpg';
+import me from '../assets/ayandeka.jpg';
 import { Link } from "react-scroll"; 
 
 const Home = () => {

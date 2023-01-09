@@ -1,4 +1,5 @@
 import React from "react";
+import Typed from "react-typed"
 
 const About = () => { 
   return (
@@ -19,9 +20,21 @@ const About = () => {
           </div>
           <div className="max-w-[1000px] w-full grid sm:grid-cols-2 gap-8 px-4">
             <div className="sm:text-right text-4xl font-bold">
-              <p>
-                Hi, I am Ayan Deka.
-              </p>
+            
+                <Typed
+                strings={[
+                    "Hi! I am an ambitious person.",
+                    "Hi! I am a passionate student",
+                    "Hi! I am a software developer",
+                    "Hi! I am full of various ideas",
+                    "Hi! I am an enthusiastic learner",
+                    "Hi! I am Ayan Deka"
+                ]}
+                typeSpeed={50}
+                backSpeed={50}
+                loop
+                />
+              
             </div>
             <div>
               <p>
