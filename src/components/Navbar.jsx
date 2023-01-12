@@ -10,6 +10,8 @@ import {
 import { HiOutlineMail } from 'react-icons/hi';
 import { BsFillPersonLinesFill } from 'react-icons/bs';
 import { Link } from 'react-scroll';
+import Fade from 'react-reveal/Fade';
+import Bounce from 'react-reveal/Bounce'
 
 const Navbar = () => {
   const [nav, setNav] = useState(false);
@@ -18,9 +20,12 @@ const Navbar = () => {
   return (
     <div className='fixed w-full h-[80px] flex justify-between items-center px-4 bg-[#0a192f] text-gray-300'>
       <div>
+      <Bounce left duration = {2000} delay = {8500}>
         <h1 className=' font-thin text-2xl italic font-serif'>AD</h1>
+      </Bounce>
       </div>
       {/* menu */}
+      <Fade duration = {3000} delay = {8500}>
       <ul className='hidden md:flex gap-x-8'>
         <li>
           <Link to='home' smooth={true} duration={500}>
@@ -43,11 +48,12 @@ const Navbar = () => {
           </Link>
         </li>
         <li>
-          <Link to='contact' smooth={true} duration={500}>
-            Contact
+          <Link to='experience' smooth={true} duration={500}>
+            Experience
           </Link>
         </li>
       </ul>
+      </Fade>
       {/* Hamburger */}
       <div onClick={handleClick} className='md:hidden z-10'>
         {!nav ? <FaBars /> : <FaTimes />}
@@ -85,13 +91,14 @@ const Navbar = () => {
         </li>
         <li className='py-6 text-4xl'>
           {' '}
-          <Link onClick={handleClick} to='contact' smooth={true} duration={500}>
-            Contact
+          <Link onClick={handleClick} to='experience' smooth={true} duration={500}>
+            Experience
           </Link>
         </li>
       </ul>
       {/* Social icons */}
       <div className='hidden lg:flex fixed flex-col top-[35%] left-0'>
+        <Bounce left duration = {2000} delay = {8500}>
         <ul>
           <li className='w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-blue-600'>
             <a
@@ -126,6 +133,7 @@ const Navbar = () => {
             </a>
           </li>
         </ul>
+        </Bounce>
       </div>
     </div>
   );
