@@ -15,27 +15,25 @@ import gui from '../assets/texteditor.png'
 import juliasets from '../assets/juliasets.jpg'
 import gps from '../assets/gpsblog.png'
 
-import Fade from 'react-reveal/Fade'
-import Zoom from 'react-reveal/Zoom'
-import Bounce from 'react-reveal/Bounce'
-import Spin from 'react-reveal/Spin'
+import ScrollAnimation from 'react-animate-on-scroll';
+import "../animate.css/animate.css";
 
 const Works = () => {
     return (
         <div name='work' className='w-screen md:h-full text-gray-300 bg-[#0a192f]'>
             <div className='max-w-[1000px] mx-auto p-4 flex flex-col justify-center w-full h-full'>
-                <Spin duration = {1000}>
+                <ScrollAnimation animateIn="animate__animated animate__rollIn">
                 <div className='pb-8 w-full flex justify-center items-center flex-col'>
                     <p className='text-4xl font-bold inline border-b-4 text-gray-300 border-cyan-500'>
                         Work
                     </p>
                     <p className='py-6 text-2xl'>Check out some of the personal projects I have developed</p>
                 </div>
-                </Spin>
+                </ScrollAnimation>
                 {/* Container */}
                 <div className='grid sm:grid-cols-2 md:grid-cols-3 gap-4'>
                     {/* Grid Item */}
-                        <Fade top duration = {3500}>
+                        <ScrollAnimation animateIn="animate__animated animate__fadeInDown" duration={3.5}>
                         <div
                             style={{ backgroundImage: `url(${algotrading})` }}
                             className='shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div hover:scale-90 duration-500'
@@ -55,8 +53,8 @@ const Works = () => {
                                 </div>
                             </div>
                         </div>
-                        </Fade>
-                    <Fade top duration = {3500}>
+                        </ScrollAnimation>
+                    <ScrollAnimation animateIn="animate__animated animate__fadeInDown" duration={3.5}>
                     <div
                         style={{ backgroundImage: `url(${flight})` }}
                         className='shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div hover:scale-90 duration-500'
@@ -76,11 +74,11 @@ const Works = () => {
                             </div>
                         </div>
                     </div>
-                    </Fade>
-                    <Fade top duration = {3500}>
+                    </ScrollAnimation>
+                    <ScrollAnimation animateIn="animate__animated animate__fadeInDown" duration={3.5}>
                     <div
                         style={{ backgroundImage: `url(${nfl})` }}
-                        className='shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div hover:scale-125 transition-all duration-500 cursor-pointer'
+                        className='shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div hover:scale-90 transition-all duration-500 cursor-pointer'
                     >
                         {/* Hover Effects */}
                         <div className='opacity-0 group-hover:opacity-100 flex justify-center items-center flex-col'>
@@ -97,8 +95,8 @@ const Works = () => {
                             </div>
                         </div>
                     </div>
-                    </Fade>
-                    <Fade left duration = {3500}>
+                    </ScrollAnimation>
+                    <ScrollAnimation animateIn="animate__animated animate__fadeInLeft" duration={3.5}>
                     <div
                         style={{ backgroundImage: `url(${ecommerce})` }}
                         className='shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div hover:scale-90 duration-500'
@@ -118,8 +116,8 @@ const Works = () => {
                             </div>
                         </div>
                     </div>
-                    </Fade>
-                    <Fade left duration = {3500}>
+                    </ScrollAnimation>
+                    <ScrollAnimation animateIn="animate__animated animate__fadeInLeft" duration={3.5}>
                     <div
                         style={{ backgroundImage: `url(${financial})` }}
                         className='shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div hover:scale-90 duration-500'
@@ -139,8 +137,8 @@ const Works = () => {
                             </div>
                         </div>
                     </div>
-                    </Fade>
-                    <Fade left duration = {3500}>
+                    </ScrollAnimation>
+                    <ScrollAnimation animateIn="animate__animated animate__fadeInLeft" duration={3.5}>
                     <div
                         style={{ backgroundImage: `url(${linux})` }}
                         className='shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div hover:scale-90 duration-500'
@@ -150,7 +148,7 @@ const Works = () => {
                             <span className=' text-lg font-bold text-white tracking-wider'>
                                 Linux Operating System
                             </span>
-                            <p className='text-center text-sm'>Linux operating system with basic commands</p>
+                            <p className='text-center text-sm'>Linux operating system that implements paging, scheduling, ext2 filesystem, memory management, and provides basics commands such as ls, grep, cat</p>
                             <div className='pt-8 text-center'>
                                 <a href='https://github.com/ayanjdeka/OperatingSystem' target='_blank'>
                                     <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg animate-bounce'>
@@ -160,8 +158,8 @@ const Works = () => {
                             </div>
                         </div>
                     </div>
-                    </Fade>
-                    <Fade right duration = {3500}>
+                    </ScrollAnimation>
+                    <ScrollAnimation animateIn="animate__animated animate__fadeInRight" duration={3.5}>
                     <div
                         style={{ backgroundImage: `url(${megamania})` }}
                         className='shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div hover:scale-90 duration-500'
@@ -181,8 +179,8 @@ const Works = () => {
                             </div>
                         </div>
                     </div>
-                    </Fade>
-                    <Fade right duration = {3500}>
+                    </ScrollAnimation>
+                    <ScrollAnimation animateIn="animate__animated animate__fadeInRight" duration={3.5}>
                     <div
                         style={{ backgroundImage: `url(${minesweeper})` }}
                         className='shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div hover:scale-90 duration-500'
@@ -202,8 +200,8 @@ const Works = () => {
                             </div>
                         </div>
                     </div>
-                    </Fade>
-                    <Fade right duration = {3500}>
+                    </ScrollAnimation>
+                    <ScrollAnimation animateIn="animate__animated animate__fadeInRight" duration={3.5}>
                     <div
                         style={{ backgroundImage: `url(${paint})` }}
                         className='shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div hover:scale-90 duration-500'
@@ -223,8 +221,8 @@ const Works = () => {
                             </div>
                         </div>
                     </div>
-                    </Fade>
-                    <Zoom duration = {3500}>
+                    </ScrollAnimation>
+                    <ScrollAnimation animateIn="animate__animated animate__zoomIn" duration={3.5}>
                     <div
                         style={{ backgroundImage: `url(${maze})` }}
                         className='shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div hover:scale-90 duration-500'
@@ -244,8 +242,8 @@ const Works = () => {
                             </div>
                         </div>
                     </div>
-                    </Zoom>
-                    <Zoom duration = {3500}>
+                    </ScrollAnimation>
+                    <ScrollAnimation animateIn="animate__animated animate__zoomIn" duration={3.5}>
                     <div
                         style={{ backgroundImage: `url(${website})` }}
                         className='shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div hover:scale-90 duration-500'
@@ -265,8 +263,8 @@ const Works = () => {
                             </div>
                         </div>
                     </div>
-                    </Zoom>
-                    <Zoom duration = {3500}>
+                    </ScrollAnimation>
+                    <ScrollAnimation animateIn="animate__animated animate__zoomIn" duration={3.5}>
                     <div
                         style={{ backgroundImage: `url(${weather})` }}
                         className='shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div hover:scale-90 duration-500'
@@ -286,8 +284,8 @@ const Works = () => {
                             </div>
                         </div>
                     </div>
-                    </Zoom>
-                    <Bounce duration = {3500}>
+                    </ScrollAnimation>
+                    <ScrollAnimation animateIn="animate__animated animate__bounceIn" duration={3.5}>
                     <div
                         style={{ backgroundImage: `url(${gui})` }}
                         className='shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div hover:scale-90 duration-500'
@@ -307,8 +305,8 @@ const Works = () => {
                             </div>
                         </div>
                     </div>
-                    </Bounce>
-                    <Bounce duration = {3500}>
+                    </ScrollAnimation>
+                    <ScrollAnimation animateIn="animate__animated animate__bounceIn" duration={3.5}>
                     <div
                         style={{ backgroundImage: `url(${juliasets})` }}
                         className='shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div hover:scale-90 duration-500'
@@ -328,8 +326,8 @@ const Works = () => {
                             </div>
                         </div>
                     </div>
-                    </Bounce>
-                    <Bounce duration = {3500}>
+                    </ScrollAnimation>
+                    <ScrollAnimation animateIn="animate__animated animate__bounceIn" duration={3.5}>
                     <div
                         style={{ backgroundImage: `url(${gps})` }}
                         className='shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div hover:scale-90 duration-500'
@@ -349,7 +347,7 @@ const Works = () => {
                             </div>
                         </div>
                     </div>
-                    </Bounce>
+                    </ScrollAnimation>
                 </div>
             </div>
         </div>

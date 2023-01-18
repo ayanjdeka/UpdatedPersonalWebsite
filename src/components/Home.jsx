@@ -2,7 +2,6 @@ import React from 'react';
 import { HiArrowNarrowRight } from 'react-icons/hi';
 import me from '../assets/ayandeka.jpg';
 import { Link } from "react-scroll";
-import 'animate.css/animate.css'
 import Fade from 'react-reveal/Fade';
 import Rotate from 'react-reveal/Rotate';
 import Typed from 'react-typed'

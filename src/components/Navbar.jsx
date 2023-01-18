@@ -13,15 +13,19 @@ import { Link } from 'react-scroll';
 import Fade from 'react-reveal/Fade';
 import Bounce from 'react-reveal/Bounce'
 
+
 const Navbar = () => {
   const [nav, setNav] = useState(false);
   const handleClick = () => setNav(!nav);
 
   return (
-    <div className='fixed w-full h-[80px] flex justify-between items-center px-4 bg-[#0a192f] text-gray-300'>
+    
+    <div className='fixed w-full h-[80px] flex justify-between items-center px-4 bg-[#0a192f] text-gray-300' rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css">
       <div>
       <Bounce left duration = {2000} delay = {8500}>
+      <Link to='home' smooth={true} duration={500}>
         <h1 className=' font-thin text-2xl italic font-serif'>AD</h1>
+        </Link>
       </Bounce>
       </div>
       {/* menu */}
@@ -58,44 +62,6 @@ const Navbar = () => {
       <div onClick={handleClick} className='md:hidden z-10'>
         {!nav ? <FaBars /> : <FaTimes />}
       </div>
-      {/* Mobile menu */}
-      <ul
-        className={
-          !nav
-            ? 'hidden'
-            : 'absolute top-0 left-0 w-full h-screen bg-[#0a192f] flex flex-col justify-center items-center'
-        }
-      >
-        <li className='py-6 text-4xl'>
-          <Link onClick={handleClick} to='home' smooth={true} duration={500}>
-            Home
-          </Link>
-        </li>
-        <li className='py-6 text-4xl'>
-          {' '}
-          <Link onClick={handleClick} to='about' smooth={true} duration={500}>
-            About
-          </Link>
-        </li>
-        <li className='py-6 text-4xl'>
-          {' '}
-          <Link onClick={handleClick} to='skills' smooth={true} duration={500}>
-            Skills
-          </Link>
-        </li>
-        <li className='py-6 text-4xl'>
-          {' '}
-          <Link onClick={handleClick} to='work' smooth={true} duration={500}>
-            Work
-          </Link>
-        </li>
-        <li className='py-6 text-4xl'>
-          {' '}
-          <Link onClick={handleClick} to='experience' smooth={true} duration={500}>
-            Experience
-          </Link>
-        </li>
-      </ul>
       {/* Social icons */}
       <div className='hidden lg:flex fixed flex-col top-[35%] left-0'>
         <Bounce left duration = {2000} delay = {8500}>
@@ -136,6 +102,7 @@ const Navbar = () => {
         </Bounce>
       </div>
     </div>
+    
   );
 };
 export default Navbar;

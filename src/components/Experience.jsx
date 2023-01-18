@@ -5,24 +5,25 @@ import texas from '../assets/texasinstruments.jpg'
 
 
 import Fade from 'react-reveal/Fade'
-import Flash from 'react-reveal/Flash'
+import ScrollAnimation from 'react-animate-on-scroll';
+import "../animate.css/animate.css";
 
 const Experience = () => {
     return (
         <div name='experience' className='w-screen md:h-full text-gray-300 bg-[#0a192f]'>
             <div className='max-w-[1000px] mx-auto p-4 flex flex-col justify-center w-full h-full'>
-                <Flash duration = {1500}>
+                <ScrollAnimation animateIn="animate__animated animate__flash" duration={1.5}>
                 <div className='pb-8 w-full flex justify-center items-center flex-col'>
                     <p className='text-4xl font-bold inline border-b-4 text-gray-300 border-cyan-500'>
                         Experience
                     </p>
                     <p className='py-6 text-2xl'>These were the past experiences that I have had</p>
                 </div>
-                </Flash>
+                </ScrollAnimation>
                 {/* Container */}
                 <div className='grid sm:grid-cols-2 md:grid-cols-3 gap-4'>
                     {/* Grid Item */}
-                        <Fade top duration = {3500}>
+                    <ScrollAnimation animateIn="animate__animated animate__fadeInDown" duration={3.5}>
                         <div
                             style={{ backgroundImage: `url(${tinder})` }}
                             className='shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div hover:scale-90 duration-500'
@@ -37,8 +38,8 @@ const Experience = () => {
                                 before a user swipes and matches.</p>
                             </div>
                         </div>
-                        </Fade>
-                    <Fade top duration = {3500}>
+                    </ScrollAnimation>
+                    <ScrollAnimation animateIn="animate__animated animate__fadeInDown" duration={3.5}>
                     <div
                         style={{ backgroundImage: `url(${nobe})` }}
                         className='shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div hover:scale-90 duration-500'
@@ -52,11 +53,11 @@ const Experience = () => {
                             CSS, and Stripe APIs to build a website which mimics an eccommerce setting.</p>
                         </div>
                     </div>
-                    </Fade>
-                    <Fade top duration = {3500}>
+                    </ScrollAnimation>
+                    <ScrollAnimation animateIn="animate__animated animate__fadeInDown" duration={3.5}>
                     <div
                         style={{ backgroundImage: `url(${texas})` }}
-                        className='shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div hover:scale-125 transition-all duration-500 cursor-pointer'
+                        className='shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div hover:scale-90 transition-all duration-500 cursor-pointer'
                     >
                         {/* Hover Effects */}
                         <div className='opacity-0 group-hover:opacity-100 flex justify-center items-center flex-col'>
@@ -68,7 +69,7 @@ const Experience = () => {
                             to sound, light, and objects detected in the way.</p>
                         </div>
                     </div>
-                    </Fade>
+                    </ScrollAnimation>
                   </div>
             </div>
         </div>
