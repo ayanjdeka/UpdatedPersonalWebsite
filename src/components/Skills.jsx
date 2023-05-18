@@ -113,6 +113,26 @@ const Skills = () => {
                     <p className='my-4'>x86 Architecture</p>
                 </div>
                 </ScrollAnimation>
+                <ScrollAnimation animateIn="animate__animated animate__wobble" duration={2}>
+                <div className='shadow-md shadow-[#040c16] hover:scale-125 duration-500'>
+                    <p className='my-4'>System Verilog</p>
+                </div>
+                </ScrollAnimation>
+                <ScrollAnimation animateIn="animate__animated animate__wobble" duration={2}>
+                <div className='shadow-md shadow-[#040c16] hover:scale-125 duration-500'>
+                    <p className='my-4'>CUDA</p>
+                </div>
+                </ScrollAnimation>
+                <ScrollAnimation animateIn="animate__animated animate__wobble" duration={2}>
+                <div className='shadow-md shadow-[#040c16] hover:scale-125 duration-500'>
+                    <p className='my-4'>NIOS II</p>
+                </div>
+                </ScrollAnimation>
+                <ScrollAnimation animateIn="animate__animated animate__wobble" duration={2}>
+                <div className='shadow-md shadow-[#040c16] hover:scale-125 duration-500'>
+                    <p className='my-4'>Quartus</p>
+                </div>
+                </ScrollAnimation>
             </div>
         </div>
     );

@@ -14,6 +14,9 @@ import weather from '../assets/weather.jpg'
 import gui from '../assets/texteditor.png'
 import juliasets from '../assets/juliasets.jpg'
 import gps from '../assets/gpsblog.png'
+import tetris from '../assets/tetris.png'
+import lc3 from '../assets/lc3.png'
+import cnn from '../assets/cnn.png'
 
 import ScrollAnimation from 'react-animate-on-scroll';
 import "../animate.css/animate.css";
@@ -340,6 +343,69 @@ const Works = () => {
                             <p className='text-center text-sm'>GPS app in Android that utilizes the Location.Manager class to calculate distance and ETA from one location to another</p>
                             <div className='pt-8 text-center'>
                                 <a href='https://github.com/ayanjdeka/GPSApp' target='_blank'>
+                                    <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg animate-bounce'>
+                                        Click to see more!
+                                    </button>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    </ScrollAnimation>
+                    <ScrollAnimation animateIn="animate__animated animate__bounceIn" duration={3.5}>
+                    <div
+                        style={{ backgroundImage: `url(${tetris})` }}
+                        className='shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div hover:scale-90 duration-500'
+                    >
+                        {/* Hover Effects */}
+                        <div className='opacity-0 group-hover:opacity-100 flex justify-center items-center flex-col'>
+                            <span className=' text-lg font-bold text-white tracking-wider'>
+                                Tetris
+                            </span>
+                            <p className='text-center text-sm'>Combined System Verilog, NIOS II Processor, and C to create the classical game Tetris.</p>
+                            <div className='pt-8 text-center'>
+                                <a href='https://github.com/ayanjdeka/Tetris' target='_blank'>
+                                    <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg animate-bounce'>
+                                        Click to see more!
+                                    </button>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    </ScrollAnimation>
+                    <ScrollAnimation animateIn="animate__animated animate__bounceIn" duration={3.5}>
+                    <div
+                        style={{ backgroundImage: `url(${lc3})` }}
+                        className='shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div hover:scale-90 duration-500'
+                    >
+                        {/* Hover Effects */}
+                        <div className='opacity-0 group-hover:opacity-100 flex justify-center items-center flex-col'>
+                            <span className=' text-lg font-bold text-white tracking-wider'>
+                                SLC-3.2 Microprocessor
+                            </span>
+                            <p className='text-center text-sm'>Created a processor following the LC-3 ISA, with a 16 bit PC, instructions, and registers</p>
+                            <div className='pt-8 text-center'>
+                                <a href='https://github.com/ayanjdeka/SLC-3.2' target='_blank'>
+                                    <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg animate-bounce'>
+                                        Click to see more!
+                                    </button>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    </ScrollAnimation>
+                    <ScrollAnimation animateIn="animate__animated animate__bounceIn" duration={3.5}>
+                    <div
+                        style={{ backgroundImage: `url(${cnn})` }}
+                        className='shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div hover:scale-90 duration-500'
+                    >
+                        {/* Hover Effects */}
+                        <div className='opacity-0 group-hover:opacity-100 flex justify-center items-center flex-col'>
+                            <span className=' text-lg font-bold text-white tracking-wider'>
+                                Convolutional Neural Network
+                            </span>
+                            <p className='text-center text-sm'>Created a convolutional neural network utilizing CUDA, with many optimizations such as streaming, tuning, channel reduction, and shared memory.</p>
+                            <div className='pt-8 text-center'>
+                                <a href='https://github.com/ayanjdeka/ConvolutionNeuralNetwork' target='_blank'>
                                     <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg animate-bounce'>
                                         Click to see more!
                                     </button>
