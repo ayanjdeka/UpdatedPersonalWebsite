@@ -17,6 +17,11 @@ import gps from '../assets/gpsblog.png'
 import tetris from '../assets/tetris.png'
 import lc3 from '../assets/lc3.png'
 import cnn from '../assets/cnn.png'
+import sudoku from '../assets/s.png'
+import calculator from '../assets/postfixcalculator.png'
+import gameOfLife from '../assets/gameoflife.png'
+import image from '../assets/game.png'
+import fitness from '../assets/fitness.png'
 
 import ScrollAnimation from 'react-animate-on-scroll';
 import "../animate.css/animate.css";
@@ -288,7 +293,7 @@ const Works = () => {
                         </div>
                     </div>
                     </ScrollAnimation>
-                    <ScrollAnimation animateIn="animate__animated animate__bounceIn" duration={3.5}>
+                    <ScrollAnimation animateIn="animate__animated animate__rollIn" duration={3.5}>
                     <div
                         style={{ backgroundImage: `url(${gui})` }}
                         className='shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div hover:scale-90 duration-500'
@@ -309,7 +314,7 @@ const Works = () => {
                         </div>
                     </div>
                     </ScrollAnimation>
-                    <ScrollAnimation animateIn="animate__animated animate__bounceIn" duration={3.5}>
+                    <ScrollAnimation animateIn="animate__animated animate__rollIn" duration={3.5}>
                     <div
                         style={{ backgroundImage: `url(${juliasets})` }}
                         className='shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div hover:scale-90 duration-500'
@@ -330,7 +335,7 @@ const Works = () => {
                         </div>
                     </div>
                     </ScrollAnimation>
-                    <ScrollAnimation animateIn="animate__animated animate__bounceIn" duration={3.5}>
+                    <ScrollAnimation animateIn="animate__animated animate__rollIn" duration={3.5}>
                     <div
                         style={{ backgroundImage: `url(${gps})` }}
                         className='shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div hover:scale-90 duration-500'
@@ -351,7 +356,7 @@ const Works = () => {
                         </div>
                     </div>
                     </ScrollAnimation>
-                    <ScrollAnimation animateIn="animate__animated animate__bounceIn" duration={3.5}>
+                    <ScrollAnimation animateIn="animate__animated animate__lightSpeedInRight" duration={3.5}>
                     <div
                         style={{ backgroundImage: `url(${tetris})` }}
                         className='shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div hover:scale-90 duration-500'
@@ -372,7 +377,7 @@ const Works = () => {
                         </div>
                     </div>
                     </ScrollAnimation>
-                    <ScrollAnimation animateIn="animate__animated animate__bounceIn" duration={3.5}>
+                    <ScrollAnimation animateIn="animate__animated animate__lightSpeedInRight" duration={3.5}>
                     <div
                         style={{ backgroundImage: `url(${lc3})` }}
                         className='shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div hover:scale-90 duration-500'
@@ -382,7 +387,7 @@ const Works = () => {
                             <span className=' text-lg font-bold text-white tracking-wider'>
                                 SLC-3.2 Microprocessor
                             </span>
-                            <p className='text-center text-sm'>Created a processor following the LC-3 ISA, with a 16 bit PC, instructions, and registers</p>
+                            <p className='text-center text-sm'>Programmed a processor following the LC-3 ISA, with a 16 bit PC, instructions, and registers</p>
                             <div className='pt-8 text-center'>
                                 <a href='https://github.com/ayanjdeka/SLC-3.2' target='_blank'>
                                     <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg animate-bounce'>
@@ -393,7 +398,7 @@ const Works = () => {
                         </div>
                     </div>
                     </ScrollAnimation>
-                    <ScrollAnimation animateIn="animate__animated animate__bounceIn" duration={3.5}>
+                    <ScrollAnimation animateIn="animate__animated animate__lightSpeedInRight" duration={3.5}>
                     <div
                         style={{ backgroundImage: `url(${cnn})` }}
                         className='shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div hover:scale-90 duration-500'
@@ -403,9 +408,114 @@ const Works = () => {
                             <span className=' text-lg font-bold text-white tracking-wider'>
                                 Convolutional Neural Network
                             </span>
-                            <p className='text-center text-sm'>Created a convolutional neural network utilizing CUDA, with many optimizations such as streaming, tuning, channel reduction, and shared memory.</p>
+                            <p className='text-center text-sm'>Applied and developed a convolutional neural network utilizing CUDA, with many optimizations such as streaming, tuning, channel reduction, and shared memory.</p>
                             <div className='pt-8 text-center'>
                                 <a href='https://github.com/ayanjdeka/ConvolutionNeuralNetwork' target='_blank'>
+                                    <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg animate-bounce'>
+                                        Click to see more!
+                                    </button>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    </ScrollAnimation>
+                    <ScrollAnimation animateIn="animate__animated animate__lightSpeedInLeft" duration={3.5}>
+                    <div
+                        style={{ backgroundImage: `url(${sudoku})` }}
+                        className='shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div hover:scale-90 duration-500'
+                    >
+                        {/* Hover Effects */}
+                        <div className='opacity-0 group-hover:opacity-100 flex justify-center items-center flex-col'>
+                            <span className=' text-lg font-bold text-white tracking-wider'>
+                                Sudoku
+                            </span>
+                            <p className='text-center text-sm'>Created the algorithm in C to recursively solve any valid sudoku board.</p>
+                            <div className='pt-8 text-center'>
+                                <a href='https://github.com/ayanjdeka/Sudoku' target='_blank'>
+                                    <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg animate-bounce'>
+                                        Click to see more!
+                                    </button>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    </ScrollAnimation>
+                    <ScrollAnimation animateIn="animate__animated animate__lightSpeedInLeft" duration={3.5}>
+                    <div
+                        style={{ backgroundImage: `url(${calculator})` }}
+                        className='shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div hover:scale-90 duration-500'
+                    >
+                        {/* Hover Effects */}
+                        <div className='opacity-0 group-hover:opacity-100 flex justify-center items-center flex-col'>
+                            <span className=' text-lg font-bold text-white tracking-wider'>
+                                Post Fix Calculator
+                            </span>
+                            <p className='text-center text-sm'>Created a reverse polish notation calculator through implementing a stack in assembly.</p>
+                            <div className='pt-8 text-center'>
+                                <a href='https://github.com/ayanjdeka/PostFixCalculator' target='_blank'>
+                                    <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg animate-bounce'>
+                                        Click to see more!
+                                    </button>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    </ScrollAnimation>
+                    <ScrollAnimation animateIn="animate__animated animate__lightSpeedInLeft" duration={3.5}>
+                    <div
+                        style={{ backgroundImage: `url(${gameOfLife})` }}
+                        className='shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div hover:scale-90 duration-500'
+                    >
+                        {/* Hover Effects */}
+                        <div className='opacity-0 group-hover:opacity-100 flex justify-center items-center flex-col'>
+                            <span className=' text-lg font-bold text-white tracking-wider'>
+                                Game Of Life
+                            </span>
+                            <p className='text-center text-sm'>Created the popular Game Of Life fully in C, and wrote the algorithm to update the board with every scenario.</p>
+                            <div className='pt-8 text-center'>
+                                <a href='https://github.com/ayanjdeka/GameOfLife' target='_blank'>
+                                    <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg animate-bounce'>
+                                        Click to see more!
+                                    </button>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    </ScrollAnimation>
+                    <ScrollAnimation animateIn="animate__animated animate__bounceIn" duration={3.5}>
+                    <div
+                        style={{ backgroundImage: `url(${image})` }}
+                        className='shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div hover:scale-90 duration-500'
+                    >
+                        {/* Hover Effects */}
+                        <div className='opacity-0 group-hover:opacity-100 flex justify-center items-center flex-col'>
+                            <span className=' text-lg font-bold text-white tracking-wider'>
+                                2048
+                            </span>
+                            <p className='text-center text-sm'>Developed the popular strategic game in C, with setting up the keyboard I/O to control the game.</p>
+                            <div className='pt-8 text-center'>
+                                <a href='https://github.com/ayanjdeka/GameOfLife' target='_blank'>
+                                    <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg animate-bounce'>
+                                        Click to see more!
+                                    </button>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    </ScrollAnimation>
+                    <ScrollAnimation animateIn="animate__animated animate__bounceIn" duration={3.5}>
+                    <div
+                        style={{ backgroundImage: `url(${fitness})` }}
+                        className='shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div hover:scale-90 duration-500'
+                    >
+                        {/* Hover Effects */}
+                        <div className='opacity-0 group-hover:opacity-100 flex justify-center items-center flex-col'>
+                            <span className=' text-lg font-bold text-white tracking-wider'>
+                                Fitness Database App
+                            </span>
+                            <p className='text-center text-sm'>Collaboritively developed a full stack fitness app through Flask and SQL, where users can keep track of foods, workouts, as well as common splits and foods between users in the database, .</p>
+                            <div className='pt-8 text-center'>
+                                <a href='https://github.com/ayanjdeka/FitnessDatabaseProject' target='_blank'>
                                     <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg animate-bounce'>
                                         Click to see more!
                                     </button>
