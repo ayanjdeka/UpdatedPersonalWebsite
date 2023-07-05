@@ -85,17 +85,18 @@ const Works = () => {
                     </ScrollAnimation>
                     <ScrollAnimation animateIn="animate__animated animate__fadeInDown" duration={3.5}>
                     <div
-                        style={{ backgroundImage: `url(${nfl})` }}
-                        className='shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div hover:scale-90 transition-all duration-500 cursor-pointer'
+                        style={{ backgroundImage: `url(${cnn})` }}
+                        className='shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div hover:scale-90 duration-500'
                     >
                         {/* Hover Effects */}
                         <div className='opacity-0 group-hover:opacity-100 flex justify-center items-center flex-col'>
                             <span className=' text-lg font-bold text-white tracking-wider'>
-                                NFLWikiApp
+                                Neural Networks
                             </span>
-                            <p className='text-center text-sm'>A personalized informational app for the NFL developed in Java and Android Studio</p>
+                            <p className='text-center text-sm'>Developed a convolutional neural network utilizing CUDA, with optimizations such as streaming, tuning, or channel reduction, and currently 
+                            developing networks with Keras and Tensorflow in Python</p>
                             <div className='pt-8 text-center'>
-                                <a href='https://github.com/ayanjdeka/NFLWikiApp' target='_blank'>
+                                <a href='https://github.com/ayanjdeka/ConvolutionNeuralNetwork' target='_blank'>
                                     <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg animate-bounce'>
                                         Click to see more!
                                     </button>
@@ -400,17 +401,17 @@ const Works = () => {
                     </ScrollAnimation>
                     <ScrollAnimation animateIn="animate__animated animate__lightSpeedInRight" duration={3.5}>
                     <div
-                        style={{ backgroundImage: `url(${cnn})` }}
-                        className='shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div hover:scale-90 duration-500'
+                        style={{ backgroundImage: `url(${nfl})` }}
+                        className='shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div hover:scale-90 transition-all duration-500 cursor-pointer'
                     >
                         {/* Hover Effects */}
                         <div className='opacity-0 group-hover:opacity-100 flex justify-center items-center flex-col'>
                             <span className=' text-lg font-bold text-white tracking-wider'>
-                                Convolutional Neural Network
+                                NFLWikiApp
                             </span>
-                            <p className='text-center text-sm'>Applied and developed a convolutional neural network utilizing CUDA, with many optimizations such as streaming, tuning, channel reduction, and shared memory.</p>
+                            <p className='text-center text-sm'>A personalized informational app for the NFL developed in Java and Android Studio</p>
                             <div className='pt-8 text-center'>
-                                <a href='https://github.com/ayanjdeka/ConvolutionNeuralNetwork' target='_blank'>
+                                <a href='https://github.com/ayanjdeka/NFLWikiApp' target='_blank'>
                                     <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg animate-bounce'>
                                         Click to see more!
                                     </button>
