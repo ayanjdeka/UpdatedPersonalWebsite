@@ -33,7 +33,7 @@ const Experience = () => {
                                 <span className=' text-lg font-bold text-white tracking-wider'>
                                     Tinder
                                 </span>
-                                <p className='text-center text-base'>I interned in Tinder during Summer 2023 as an Android developer on the Discovery Team.
+                                <p className='text-center text-base'>I interned in Tinder during the summer 2022 and 2023 as an developer on the Discovery Team.
                                 I worked with features and analytics tracking related to the app, and these features would be centered around everything that happens
                                 before a user swipes and matches.</p>
                             </div>
