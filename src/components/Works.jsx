@@ -22,6 +22,10 @@ import calculator from '../assets/postfixcalculator.png'
 import gameOfLife from '../assets/gameoflife.png'
 import image from '../assets/game.png'
 import fitness from '../assets/fitness.png'
+import riscv from '../assets/riscv.png'
+import tcp from '../assets/tcp.png'
+import networking_algo from '../assets/routing.png'
+import collision from '../assets/collision.png'
 
 import ScrollAnimation from 'react-animate-on-scroll';
 import "../animate.css/animate.css";
@@ -33,9 +37,9 @@ const Works = () => {
                 <ScrollAnimation animateIn="animate__animated animate__rollIn">
                 <div className='pb-8 w-full flex justify-center items-center flex-col'>
                     <p className='text-4xl font-bold inline border-b-4 text-gray-300 border-cyan-500'>
-                        Work
+                        Personal Projects
                     </p>
-                    <p className='py-6 text-2xl'>Check out some of the personal projects I have developed</p>
+                    <p className='py-6 text-2xl'>Feel free to check out some of the projects that I have developed.</p>
                 </div>
                 </ScrollAnimation>
                 {/* Container */}
@@ -223,6 +227,69 @@ const Works = () => {
                             <p className='text-center text-sm'>Uniquely uses the data structures of Stacks and Lists to create a painting program in Java</p>
                             <div className='pt-8 text-center'>
                                 <a href='https://github.com/ayanjdeka/PaintProgam' target='_blank'>
+                                    <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg animate-bounce'>
+                                        Click to see more!
+                                    </button>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    </ScrollAnimation>
+                    <ScrollAnimation animateIn="animate__animated animate__fadeInRight" duration={3.5}>
+                    <div
+                        style={{ backgroundImage: `url(${riscv})` }}
+                        className='shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div hover:scale-90 duration-500'
+                    >
+                        {/* Hover Effects */}
+                        <div className='opacity-0 group-hover:opacity-100 flex justify-center items-center flex-col'>
+                            <span className=' text-lg font-bold text-white tracking-wider'>
+                                RISC-V Pipelined Processor
+                            </span>
+                            <p className='text-center text-sm'>Classical Atari Game that was built using JavaFX for its User Interface and event handlers</p>
+                            <div className='pt-8 text-center'>
+                                <a href='https://github.com/ayanjdeka/RISCV-Proccessor' target='_blank'>
+                                    <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg animate-bounce'>
+                                        Click to see more!
+                                    </button>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    </ScrollAnimation>
+                    <ScrollAnimation animateIn="animate__animated animate__fadeInRight" duration={3.5}>
+                    <div
+                        style={{ backgroundImage: `url(${tcp})` }}
+                        className='shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div hover:scale-90 duration-500'
+                    >
+                        {/* Hover Effects */}
+                        <div className='opacity-0 group-hover:opacity-100 flex justify-center items-center flex-col'>
+                            <span className=' text-lg font-bold text-white tracking-wider'>
+                                Tranmission Control Protocol
+                            </span>
+                            <p className='text-center text-sm'>Classical game utilizing JavaSwing and JavaAWT to build the graphical interface</p>
+                            <div className='pt-8 text-center'>
+                                <a href='https://github.com/ayanjdeka/Transmission_Control_Protocol' target='_blank'>
+                                    <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg animate-bounce'>
+                                        Click to see more!
+                                    </button>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    </ScrollAnimation>
+                    <ScrollAnimation animateIn="animate__animated animate__fadeInRight" duration={3.5}>
+                    <div
+                        style={{ backgroundImage: `url(${networking_algo})` }}
+                        className='shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div hover:scale-90 duration-500'
+                    >
+                        {/* Hover Effects */}
+                        <div className='opacity-0 group-hover:opacity-100 flex justify-center items-center flex-col'>
+                            <span className=' text-lg font-bold text-white tracking-wider'>
+                                Networking Algorithms
+                            </span>
+                            <p className='text-center text-sm'>Uniquely uses the data structures of Stacks and Lists to create a painting program in Java</p>
+                            <div className='pt-8 text-center'>
+                                <a href='https://github.com/ayanjdeka/Networking-Algos' target='_blank'>
                                     <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg animate-bounce'>
                                         Click to see more!
                                     </button>
@@ -517,6 +584,27 @@ const Works = () => {
                             <p className='text-center text-sm'>Collaboritively developed a full stack fitness app through Flask and SQL, where users can keep track of foods, workouts, as well as common splits and foods between users in the database, .</p>
                             <div className='pt-8 text-center'>
                                 <a href='https://github.com/ayanjdeka/FitnessDatabaseProject' target='_blank'>
+                                    <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg animate-bounce'>
+                                        Click to see more!
+                                    </button>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    </ScrollAnimation>
+                    <ScrollAnimation animateIn="animate__animated animate__bounceIn" duration={3.5}>
+                    <div
+                        style={{ backgroundImage: `url(${collision})` }}
+                        className='shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div hover:scale-90 duration-500'
+                    >
+                        {/* Hover Effects */}
+                        <div className='opacity-0 group-hover:opacity-100 flex justify-center items-center flex-col'>
+                            <span className=' text-lg font-bold text-white tracking-wider'>
+                                CSMA/CD Protocol
+                            </span>
+                            <p className='text-center text-sm'>Collaboritively developed a full stack fitness app through Flask and SQL, where users can keep track of foods, workouts, as well as common splits and foods between users in the database, .</p>
+                            <div className='pt-8 text-center'>
+                                <a href='https://github.com/ayanjdeka/CSMA-CD' target='_blank'>
                                     <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg animate-bounce'>
                                         Click to see more!
                                     </button>
