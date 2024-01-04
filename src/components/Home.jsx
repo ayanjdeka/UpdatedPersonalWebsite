@@ -15,25 +15,17 @@ const Home = () => {
       <div className="max-w-screen-lg mx-auto flex flex-col items-center justify-center h-full px-4 md:flex-row">
         <div className="flex flex-col justify-center h-full">
           <h2 className="text-4xl sm:text-7xl font-bold text-white">
-          <Typed
-              strings={[
-                "Hi! I am an ambitious person.",
-                "Hi! I am a passionate student.",
-                "Hi! I am an enthusiastic learner.",
-                "Hi! Welcome to my website!"
-              ]}
-              typeSpeed={20}
-              backSpeed={20}
-            />
+            Hi! Welcome to my website!
           </h2>
           
-          <Fade left duration = {1000} delay = {8000}>
+          <Fade left duration = {1000}>
           <p className="text-gray-500 py-4 max-w-md">
             Hello everyone! Feel free to browse through the various projects and experiences that I have done!
           </p>
           </Fade>
-          <Rotate bottom left duration = {1000} delay = {9000}>
+          <Rotate bottom left duration = {1000} delay = {1000}>
           <div>
+            
             <Link
               to="about"
               smooth
@@ -49,7 +41,7 @@ const Home = () => {
           </Rotate>
         </div>
         <div>
-        <Fade right duration = {1000} delay = {8500}>
+        <Fade right duration = {1000} delay = {500}>
           <img
             src={me}
             alt="my profile"

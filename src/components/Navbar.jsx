@@ -22,14 +22,14 @@ const Navbar = () => {
     
     <div className='fixed w-full h-[80px] flex justify-between items-center px-4 bg-[#0a192f] text-gray-300' rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css">
       <div>
-      <Bounce left duration = {2000} delay = {8500}>
+      <Bounce left duration = {2000} delay = {500}>
       <Link to='home' smooth={true} duration={500}>
         <h1 className=' font-thin text-2xl italic font-serif'>AD</h1>
         </Link>
       </Bounce>
       </div>
       {/* menu */}
-      <Fade duration = {3000} delay = {8500}>
+      <Fade duration = {3000} delay = {500}>
       <ul className='hidden md:flex gap-x-8'>
         <li>
           <Link to='home' smooth={true} duration={500}>
@@ -64,7 +64,7 @@ const Navbar = () => {
       </div>
       {/* Social icons */}
       <div className='hidden lg:flex fixed flex-col top-[35%] left-0'>
-        <Bounce left duration = {2000} delay = {8500}>
+        <Bounce left duration = {2000} delay = {500}>
         <ul>
           <li className='w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-blue-600'>
             <a
@@ -88,14 +88,6 @@ const Navbar = () => {
               href='mailto:ayanjdeka@gmail.com'
             >
               Email <HiOutlineMail size={30} />
-            </a>
-          </li>
-          <li className='w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-[#565f69]'>
-            <a
-              className='flex justify-between items-center w-full text-gray-300'
-              href='../assets/AyanDekaCollegeResume.pdf' target='_blank'
-            >
-              Resume <BsFillPersonLinesFill size={30} />
             </a>
           </li>
         </ul>

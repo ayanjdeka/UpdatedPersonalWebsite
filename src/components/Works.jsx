@@ -235,7 +235,7 @@ const Works = () => {
                         </div>
                     </div>
                     </ScrollAnimation>
-                    <ScrollAnimation animateIn="animate__animated animate__fadeInRight" duration={3.5}>
+                    <ScrollAnimation animateIn="animate__animated animate__backInLeft" duration={3.5}>
                     <div
                         style={{ backgroundImage: `url(${riscv})` }}
                         className='shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div hover:scale-90 duration-500'
@@ -245,7 +245,8 @@ const Works = () => {
                             <span className=' text-lg font-bold text-white tracking-wider'>
                                 RISC-V Pipelined Processor
                             </span>
-                            <p className='text-center text-sm'>Classical Atari Game that was built using JavaFX for its User Interface and event handlers</p>
+                            <p className='text-center text-sm'>Utilized System Verilog to collaboritively design and test a 5 stage pipelined RISC-V processor,
+                            and added advanced features such as multilevel/parameterized caching, prefetching, multiplication/division, and branch prediction.</p>
                             <div className='pt-8 text-center'>
                                 <a href='https://github.com/ayanjdeka/RISCV-Proccessor' target='_blank'>
                                     <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg animate-bounce'>
@@ -256,7 +257,7 @@ const Works = () => {
                         </div>
                     </div>
                     </ScrollAnimation>
-                    <ScrollAnimation animateIn="animate__animated animate__fadeInRight" duration={3.5}>
+                    <ScrollAnimation animateIn="animate__animated animate__backInLeft" duration={3.5}>
                     <div
                         style={{ backgroundImage: `url(${tcp})` }}
                         className='shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div hover:scale-90 duration-500'
@@ -266,7 +267,7 @@ const Works = () => {
                             <span className=' text-lg font-bold text-white tracking-wider'>
                                 Tranmission Control Protocol
                             </span>
-                            <p className='text-center text-sm'>Classical game utilizing JavaSwing and JavaAWT to build the graphical interface</p>
+                            <p className='text-center text-sm'>Utilized Socket Programming to build a sender and receiver that follows TCP in C++</p>
                             <div className='pt-8 text-center'>
                                 <a href='https://github.com/ayanjdeka/Transmission_Control_Protocol' target='_blank'>
                                     <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg animate-bounce'>
@@ -277,7 +278,7 @@ const Works = () => {
                         </div>
                     </div>
                     </ScrollAnimation>
-                    <ScrollAnimation animateIn="animate__animated animate__fadeInRight" duration={3.5}>
+                    <ScrollAnimation animateIn="animate__animated animate__backInLeft" duration={3.5}>
                     <div
                         style={{ backgroundImage: `url(${networking_algo})` }}
                         className='shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div hover:scale-90 duration-500'
@@ -287,7 +288,7 @@ const Works = () => {
                             <span className=' text-lg font-bold text-white tracking-wider'>
                                 Networking Algorithms
                             </span>
-                            <p className='text-center text-sm'>Uniquely uses the data structures of Stacks and Lists to create a painting program in Java</p>
+                            <p className='text-center text-sm'>Applied my knowledge of Bellman-Ford and Dijikstra's towards the famous Distance Vector and Linkstate networking algorithms.</p>
                             <div className='pt-8 text-center'>
                                 <a href='https://github.com/ayanjdeka/Networking-Algos' target='_blank'>
                                     <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg animate-bounce'>
@@ -298,7 +299,7 @@ const Works = () => {
                         </div>
                     </div>
                     </ScrollAnimation>
-                    <ScrollAnimation animateIn="animate__animated animate__zoomIn" duration={3.5}>
+                    <ScrollAnimation animateIn="animate__animated animate__backInRight" duration={3.5}>
                     <div
                         style={{ backgroundImage: `url(${maze})` }}
                         className='shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div hover:scale-90 duration-500'
@@ -319,7 +320,7 @@ const Works = () => {
                         </div>
                     </div>
                     </ScrollAnimation>
-                    <ScrollAnimation animateIn="animate__animated animate__zoomIn" duration={3.5}>
+                    <ScrollAnimation animateIn="animate__animated animate__backInRight" duration={3.5}>
                     <div
                         style={{ backgroundImage: `url(${website})` }}
                         className='shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div hover:scale-90 duration-500'
@@ -340,7 +341,7 @@ const Works = () => {
                         </div>
                     </div>
                     </ScrollAnimation>
-                    <ScrollAnimation animateIn="animate__animated animate__zoomIn" duration={3.5}>
+                    <ScrollAnimation animateIn="animate__animated animate__backInRight" duration={3.5}>
                     <div
                         style={{ backgroundImage: `url(${weather})` }}
                         className='shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div hover:scale-90 duration-500'
@@ -581,7 +582,7 @@ const Works = () => {
                             <span className=' text-lg font-bold text-white tracking-wider'>
                                 Fitness Database App
                             </span>
-                            <p className='text-center text-sm'>Collaboritively developed a full stack fitness app through Flask and SQL, where users can keep track of foods, workouts, as well as common splits and foods between users in the database, .</p>
+                            <p className='text-center text-sm'>Collaboritively developed a full stack fitness app through Flask and SQL, where users can keep track of foods, workouts, as well as common splits and foods between users in the database.</p>
                             <div className='pt-8 text-center'>
                                 <a href='https://github.com/ayanjdeka/FitnessDatabaseProject' target='_blank'>
                                     <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg animate-bounce'>
@@ -602,7 +603,7 @@ const Works = () => {
                             <span className=' text-lg font-bold text-white tracking-wider'>
                                 CSMA/CD Protocol
                             </span>
-                            <p className='text-center text-sm'>Collaboritively developed a full stack fitness app through Flask and SQL, where users can keep track of foods, workouts, as well as common splits and foods between users in the database, .</p>
+                            <p className='text-center text-sm'>Created a collision detection protocol in communication netwroks that replicated the CSMA/CD protocol. </p>
                             <div className='pt-8 text-center'>
                                 <a href='https://github.com/ayanjdeka/CSMA-CD' target='_blank'>
                                     <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg animate-bounce'>
