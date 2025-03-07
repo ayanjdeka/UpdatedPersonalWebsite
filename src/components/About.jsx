@@ -30,7 +30,7 @@ const About = () => {
                         <div>
                             <p>
                                 I am an Master's Student majoring in Computer Science at UIUC, with a previous Bachelor's in Computer Engineering at UIUC as well. I have taken many relevant courses such
-                                as Data Structures, Algorithms, Computer Systems/Architecture, Databases, Applied Parallel Programming, Communication Networks, and Distributed Systems.
+                                as Aritificial Intelligence, Applied Machine Learning, Data Structures, Algorithms, Computer Systems, Databases, and Distributed Systems.
                                 Last summer, I interned at Tinder as a SWE intern, and am continously looking for opportunities to expand my knowledge.
                             </p>
                         </div>

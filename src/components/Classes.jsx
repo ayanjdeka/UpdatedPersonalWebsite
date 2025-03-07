@@ -17,7 +17,7 @@ const Classes = () => {
                     <p className='text-4xl font-bold inline border-b-4 text-gray-300 border-cyan-500'>
                         Classes
                     </p>
-                    <p className='py-6 text-2xl'>These are the past classes that I have done</p>
+                    <p className='py-6 text-2xl'>These are relevant courses I have taken</p>
                 </div>
                 </ScrollAnimation>
                 {/* Container */}
@@ -176,6 +176,45 @@ const Classes = () => {
                                 CS 421 - Programming Languages and Compilers
                                 </span>
                                 <p className='text-center text-base font-bold text-white text-sm'>Structure of programming languages and their implementation. Basic language design principles; abstract data types; functional languages; type systems; object-oriented languages. Basics of lexing, parsing, syntax-directed translation, semantic analysis, and code generation.</p>
+                            </div>
+                        </div>
+                    </ScrollAnimation>
+                    <ScrollAnimation animateIn="animate__animated animate__fadeInDown" duration={3.5}>
+                        <div
+                            className='group container rounded-md flex justify-center items-center mx-auto content-div hover:scale-90 duration-500 bg-[#6fc2b0]'
+                        >
+                            {/* Hover Effects */}
+                            <div className='opacity-100 flex justify-center items-center flex-col'>
+                                <span className=' text-lg font-bold text-white tracking-wider'>
+                                CS 410 - Text Information Systems
+                                </span>
+                                <p className='text-center text-base font-bold text-white text-sm'>Theory, design, and implementation of text-based information systems. Text analysis, retrieval models (e.g., Boolean, vector space, probabilistic), text categorization, text filtering, clustering, retrieval system design and implementation, and applications to web information management.</p>
+                            </div>
+                        </div>
+                    </ScrollAnimation>
+                    <ScrollAnimation animateIn="animate__animated animate__fadeInDown" duration={3.5}>
+                        <div
+                            className='group container rounded-md flex justify-center items-center mx-auto content-div hover:scale-90 duration-500 bg-[#6fc2b0]'
+                        >
+                            {/* Hover Effects */}
+                            <div className='opacity-100 flex justify-center items-center flex-col'>
+                                <span className=' text-lg font-bold text-white tracking-wider'>
+                                CS 441 - Applied Machine Learning
+                                </span>
+                                <p className='text-center text-base font-bold text-white text-sm'>Machine learning for signal problems: regression (linear, multiple, forest, nearest neighbors); classification (logistic, SVM, nearest neighbors, boosting, forests); clustering (agglomerative, k-means);Tool- and problem-oriented focus with applications in vision, NLP, accelerometers, and audio.</p>
+                            </div>
+                        </div>
+                    </ScrollAnimation>
+                    <ScrollAnimation animateIn="animate__animated animate__fadeInDown" duration={3.5}>
+                        <div
+                            className='group container rounded-md flex justify-center items-center mx-auto content-div hover:scale-90 duration-500 bg-[#6fc2b0]'
+                        >
+                            {/* Hover Effects */}
+                            <div className='opacity-100 flex justify-center items-center flex-col'>
+                                <span className=' text-lg font-bold text-white tracking-wider'>
+                                CS 598 - Deep Learning for Health Care
+                                </span>
+                                <p className='text-center text-base font-bold text-white text-sm'>Deep learning models: deep neural networks, convolutional neural networks, recurrent neural networks, autoencoders, attention models, graph neural networks, deep generative learning. Healthcare applications: clinical predictive models, clinical NLP, medical imaging analysis.</p>
                             </div>
                         </div>
                     </ScrollAnimation>
