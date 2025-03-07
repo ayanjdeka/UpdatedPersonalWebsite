@@ -75,6 +75,46 @@ const Skills = () => {
                 </ScrollAnimation>
                 <ScrollAnimation animateIn="animate__animated animate__wobble" duration={2}>
                 <div className='shadow-md shadow-[#040c16] hover:scale-125 duration-500'>
+                    <p className='my-4'>CUDA</p>
+                </div>
+                </ScrollAnimation>
+                <ScrollAnimation animateIn="animate__animated animate__wobble" duration={2}>
+                <div className='shadow-md shadow-[#040c16] hover:scale-125 duration-500'>
+                    <p className='my-4'>Tensorflow</p>
+                </div>
+                </ScrollAnimation>
+                <ScrollAnimation animateIn="animate__animated animate__wobble" duration={2}>
+                <div className='shadow-md shadow-[#040c16] hover:scale-125 duration-500'>
+                    <p className='my-4'>Keras</p>
+                </div>
+                </ScrollAnimation>
+                <ScrollAnimation animateIn="animate__animated animate__wobble" duration={2}>
+                <div className='shadow-md shadow-[#040c16] hover:scale-125 duration-500'>
+                    <p className='my-4'>Pytorch</p>
+                </div>
+                </ScrollAnimation>
+                <ScrollAnimation animateIn="animate__animated animate__wobble" duration={2}>
+                <div className='shadow-md shadow-[#040c16] hover:scale-125 duration-500'>
+                    <p className='my-4'>scklearn</p>
+                </div>
+                </ScrollAnimation>
+                <ScrollAnimation animateIn="animate__animated animate__wobble" duration={2}>
+                <div className='shadow-md shadow-[#040c16] hover:scale-125 duration-500'>
+                    <p className='my-4'>Gensim</p>
+                </div>
+                </ScrollAnimation>
+                <ScrollAnimation animateIn="animate__animated animate__wobble" duration={2}>
+                <div className='shadow-md shadow-[#040c16] hover:scale-125 duration-500'>
+                    <p className='my-4'>UMP</p>
+                </div>
+                </ScrollAnimation>
+                <ScrollAnimation animateIn="animate__animated animate__wobble" duration={2}>
+                <div className='shadow-md shadow-[#040c16] hover:scale-125 duration-500'>
+                    <p className='my-4'>NLTK</p>
+                </div>
+                </ScrollAnimation>
+                <ScrollAnimation animateIn="animate__animated animate__wobble" duration={2}>
+                <div className='shadow-md shadow-[#040c16] hover:scale-125 duration-500'>
                     <p className='my-4'>EJS</p>
                 </div>
                 </ScrollAnimation>
@@ -116,11 +156,6 @@ const Skills = () => {
                 <ScrollAnimation animateIn="animate__animated animate__wobble" duration={2}>
                 <div className='shadow-md shadow-[#040c16] hover:scale-125 duration-500'>
                     <p className='my-4'>System Verilog</p>
-                </div>
-                </ScrollAnimation>
-                <ScrollAnimation animateIn="animate__animated animate__wobble" duration={2}>
-                <div className='shadow-md shadow-[#040c16] hover:scale-125 duration-500'>
-                    <p className='my-4'>CUDA</p>
                 </div>
                 </ScrollAnimation>
                 <ScrollAnimation animateIn="animate__animated animate__wobble" duration={2}>
