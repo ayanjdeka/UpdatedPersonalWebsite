@@ -29,7 +29,7 @@ const About = () => {
                         <ScrollAnimation animateIn="animate__animated animate__fadeInRight" delay = {1250}>
                         <div>
                             <p>
-                                I am an junior majoring in Computer Engineering and minoring in Economics at UIUC. I have taken many relevant courses such
+                                I am an Master's Student majoring in Computer Science at UIUC, with a previous Bachelor's in Computer Engineering at UIUC as well. I have taken many relevant courses such
                                 as Data Structures, Algorithms, Computer Systems/Architecture, Databases, Applied Parallel Programming, Communication Networks, and Distributed Systems.
                                 Last summer, I interned at Tinder as a SWE intern, and am continously looking for opportunities to expand my knowledge.
                             </p>

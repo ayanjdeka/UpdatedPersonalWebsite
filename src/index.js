@@ -8,6 +8,7 @@ import Home from "./components/Home";
 import Navbar from "./components/Navbar";
 import Skills from "./components/Skills";
 import Works from "./components/Works";
+import Classes from "./components/Classes"
 
 const App = () => {
   return (
@@ -16,6 +17,7 @@ const App = () => {
       <Home />
       <About />
       <Skills />
+      <Classes />
       <Works />
       <Experience />
     </div>

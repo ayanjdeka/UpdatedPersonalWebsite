@@ -6,6 +6,8 @@ import {
   FaLinkedin,
   FaFacebook,
   FaLinkedinIn,
+  FaInstagramSquare,
+  FaInstagram,
 } from 'react-icons/fa';
 import { HiOutlineMail } from 'react-icons/hi';
 import { BsFillPersonLinesFill } from 'react-icons/bs';
@@ -41,6 +43,12 @@ const Navbar = () => {
             About
           </Link>
         </li>
+        <li>
+          <Link to='classes' smooth={true} duration={500}>
+            Classes
+          </Link>
+        </li>
+        <li></li>
         <li>
           <Link to='skills' smooth={true} duration={500}>
             Skills
@@ -82,10 +90,18 @@ const Navbar = () => {
               Github <FaGithub size={30} />
             </a>
           </li>
+          <li className='w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-[#E1306C]'>
+            <a
+              className='flex justify-between items-center w-full text-gray-300'
+              href='https://www.instagram.com/ayan_deka10/' target='_blank'
+            >
+              Instagram <FaInstagram size={30} />
+            </a>
+          </li>
           <li className='w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-[#6fc2b0]'>
             <a
               className='flex justify-between items-center w-full text-gray-300'
-              href='mailto:ayanjdeka@gmail.com'
+              href='mailto:ayjeetdek@gmail.com'
             >
               Email <HiOutlineMail size={30} />
             </a>
