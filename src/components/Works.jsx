@@ -26,6 +26,9 @@ import riscv from '../assets/riscv.png'
 import tcp from '../assets/tcp.png'
 import networking_algo from '../assets/routing.png'
 import collision from '../assets/collision.png'
+import pytorch from '../assets/pytorch.jpg'
+import transformer from '../assets/transformer.png'
+import deep from '../assets/deep.jpeg'
 
 import ScrollAnimation from 'react-animate-on-scroll';
 import "../animate.css/animate.css";
@@ -101,6 +104,69 @@ const Works = () => {
                             developing networks with Keras and Tensorflow in Python</p>
                             <div className='pt-8 text-center'>
                                 <a href='https://github.com/ayanjdeka/ConvolutionNeuralNetwork' target='_blank'>
+                                    <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg animate-bounce'>
+                                        Click to see more!
+                                    </button>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    </ScrollAnimation>
+                    <ScrollAnimation animateIn="animate__animated animate__fadeInDown" duration={3.5}>
+                    <div
+                        style={{ backgroundImage: `url(${pytorch})` }}
+                        className='shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div hover:scale-90 duration-500'
+                    >
+                        {/* Hover Effects */}
+                        <div className='opacity-0 group-hover:opacity-100 flex justify-center items-center flex-col'>
+                            <span className=' text-lg font-bold text-white tracking-wider'>
+                                PyTorch Neural Network
+                            </span>
+                            <p className='text-center text-sm'>Defines a simple neural network using PyTorch, along with functions for creating layers, a loss function, and training the model. </p>
+                            <div className='pt-8 text-center'>
+                                <a href='https://github.com/ayanjdeka/Aritifcial_Intelligence_Projectss/blob/main/NeuralNetworksPyTorch.py' target='_blank'>
+                                    <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg animate-bounce'>
+                                        Click to see more!
+                                    </button>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    </ScrollAnimation>
+                    <ScrollAnimation animateIn="animate__animated animate__fadeInDown" duration={3.5}>
+                    <div
+                        style={{ backgroundImage: `url(${transformer})` }}
+                        className='shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div hover:scale-90 duration-500'
+                    >
+                        {/* Hover Effects */}
+                        <div className='opacity-0 group-hover:opacity-100 flex justify-center items-center flex-col'>
+                            <span className=' text-lg font-bold text-white tracking-wider'>
+                                Transformer Model
+                            </span>
+                            <p className='text-center text-sm'>This codebase implements a Transformer model for a sequence-to-sequence (seq2seq) task, similar to the original Transformer architecture introduced by Vaswani et al.</p>
+                            <div className='pt-8 text-center'>
+                                <a href='https://github.com/ayanjdeka/Aritifcial_Intelligence_Projectss/tree/main/TransformerArch' target='_blank'>
+                                    <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg animate-bounce'>
+                                        Click to see more!
+                                    </button>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    </ScrollAnimation>
+                    <ScrollAnimation animateIn="animate__animated animate__fadeInDown" duration={3.5}>
+                    <div
+                        style={{ backgroundImage: `url(${deep})` }}
+                        className='shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div hover:scale-90 duration-500'
+                    >
+                        {/* Hover Effects */}
+                        <div className='opacity-0 group-hover:opacity-100 flex justify-center items-center flex-col'>
+                            <span className=' text-lg font-bold text-white tracking-wider'>
+                                Deep Learning Applications
+                            </span>
+                            <p className='text-center text-sm'>Implemented many deep learning applications, such as embedding theory, seq2seq network, and a recurrent neural network, working with healthcare applications</p>
+                            <div className='pt-8 text-center'>
+                                <a href='https://github.com/ayanjdeka/Aritifcial_Intelligence_Projectss/tree/main/DeepLearning' target='_blank'>
                                     <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg animate-bounce'>
                                         Click to see more!
                                     </button>
